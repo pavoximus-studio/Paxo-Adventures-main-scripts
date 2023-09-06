@@ -16,7 +16,7 @@ public class Flower : MonoBehaviour
 
     void Start()
     {
-        anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>(); //animation is made with only 2 frames. Plant is sligtly shorter when IsShot is true.
         balls = new GameObject[5];
     }
     IEnumerator Routine (float WaitTime) //what happens when player enters trigger circle of flower
