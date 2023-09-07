@@ -22,11 +22,9 @@ public class Player_Movement : MonoBehaviour
     [SerializeField] LayerMask groundLayer; //layers player can jump on
 
     private AudioSource movement; //audiosource for footstep and jump sounds
-    [SerializeField] private AudioClip Footstep1;
+    [SerializeField] private AudioClip Footstep1;//not used in this script
     [SerializeField] private AudioClip Footstep2;
     [SerializeField] private AudioClip Jump;
-
-    //private MovingPlatform movingplatform;
 
     private void GroundCheck() //checks if player is on ground and is not moving on y axis (is not falling)
     {
