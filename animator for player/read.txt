@@ -1,0 +1,2 @@
+In the image (Animator for player) you can see how player is animated with 5 animations (each animation is composed of several frames and is looped)
+THIS IS JUST AN OVERVIEW of how this animator works, i didn't inclue every condition for transitioning between animations.
